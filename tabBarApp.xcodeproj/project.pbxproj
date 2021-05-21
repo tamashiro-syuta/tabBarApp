@@ -13,6 +13,8 @@
 		482317D32657AD7700257189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482317D12657AD7700257189 /* Main.storyboard */; };
 		482317D52657AD7A00257189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482317D42657AD7A00257189 /* Assets.xcassets */; };
 		482317D82657AD7A00257189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482317D62657AD7A00257189 /* LaunchScreen.storyboard */; };
+		482317E12657B21000257189 /* tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482317E02657B21000257189 /* tab1ViewController.swift */; };
+		482317E42657B68200257189 /* tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482317E32657B68200257189 /* tab2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		482317D42657AD7A00257189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482317D72657AD7A00257189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		482317D92657AD7A00257189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482317E02657B21000257189 /* tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1ViewController.swift; sourceTree = "<group>"; };
+		482317E32657B68200257189 /* tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				482317D42657AD7A00257189 /* Assets.xcassets */,
 				482317D62657AD7A00257189 /* LaunchScreen.storyboard */,
 				482317D92657AD7A00257189 /* Info.plist */,
+				482317E02657B21000257189 /* tab1ViewController.swift */,
+				482317E32657B68200257189 /* tab2ViewController.swift */,
 			);
 			path = tabBarApp;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482317E42657B68200257189 /* tab2ViewController.swift in Sources */,
 				482317D02657AD7700257189 /* ViewController.swift in Sources */,
 				482317CC2657AD7700257189 /* AppDelegate.swift in Sources */,
+				482317E12657B21000257189 /* tab1ViewController.swift in Sources */,
 				482317CE2657AD7700257189 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
